@@ -52,7 +52,7 @@ Preprocessing makes CSS easier to use, example LESS splits out our CSS files, al
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-Parametric Mix-ins hands down. It allows us to use things over and over in a basic shorthand fashion. Concept that gives me the most trouble = At first it was functions. But as I looked over the list of them, they became much easier to understand.
+Parametric Mix-ins hands down. It allows us to use things over and over in a basic shorthand fashion. Concept that gives me the most trouble = At first it was functions. But as I looked over the list of them, they became much easier to understand. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
