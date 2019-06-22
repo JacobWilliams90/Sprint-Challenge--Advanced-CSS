@@ -189,6 +189,20 @@ p {
     padding: 1.5rem;
   }
 }
+.topnav .blinker:hover {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% {
+    color: #454A59;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: #454A59;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

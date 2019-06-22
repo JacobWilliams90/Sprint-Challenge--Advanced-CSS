@@ -25,4 +25,14 @@
             padding: 1.5rem;
         }
     }
+
+    .blinker:hover{
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink{
+        0%{color: @nav-font;}
+        50%{color: transparent;}
+        100%{color: @nav-font;}
+    }
 }
