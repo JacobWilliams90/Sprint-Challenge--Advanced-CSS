@@ -9,6 +9,10 @@
     h1{
         font-size: 5rem;
         padding-bottom: 2rem;
+        
+        @media @mobile{
+            font-size: 4rem;
+        }
     }
 
     a{
@@ -16,5 +20,9 @@
         font-weight: bold;
         padding: 2.5rem;
         .nav-link();
+
+        @media @mobile{
+            padding: 1.5rem;
+        }
     }
 }
