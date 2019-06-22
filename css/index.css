@@ -222,6 +222,12 @@ footer {
 .home .earth {
   border-radius: 0.5rem;
 }
+@media (max-width: 500px) {
+  .home .earth {
+    height: 50%;
+    width: 100%;
+  }
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
