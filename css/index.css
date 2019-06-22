@@ -195,6 +195,9 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .earth {
+  border-radius: 0.5rem;
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
@@ -230,6 +233,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 35%;
+  background-color: #22283A;
+  font-size: 1.9rem;
+  color: white;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 0.7rem;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+.home .walk .walk-text .btn:hover {
+  cursor: pointer;
+  color: #22283A;
+  background: white;
 }
 .home .walk .walk-img {
   width: 46%;
