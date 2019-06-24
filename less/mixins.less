@@ -1,1 +1,26 @@
 // Mixins Here
+.nav-link(){
+    font: @nav-font;
+    text-decoration: none;
+    color: @main-font-color;
+}
+
+.otherimg(){
+    border-radius: .5rem;
+}
+
+.thebtn(@font, @color, @deco){
+    font-size: @font;
+    color: @color;
+    text-decoration: @deco;
+    border: 1px solid @btn-bg-color;
+    border-radius: 0.7rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    
+    &:hover{
+        cursor: pointer;
+        color: @btn-bg-color;
+        background: @color;
+    }
+}

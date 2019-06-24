@@ -1,1 +1,37 @@
-// Navigation code here
+.topnav{
+    background-color: @nav-bg;
+    font: @nav-font;
+    border: @nav-border;
+    text-align: center;
+    padding: 2rem;
+
+    h1{
+        font-size: 5rem;
+        padding-bottom: 2rem;
+        
+        @media @mobile{
+            font-size: 4rem;
+        }
+    }
+
+    a{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 2.5rem;
+        .nav-link();
+
+        @media @mobile{
+            padding: 1.5rem;
+        }
+    }
+
+    .blinker:hover{
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink{
+        0%{color: @nav-font;}
+        50%{color: transparent;}
+        100%{color: @nav-font;}
+    }
+}
